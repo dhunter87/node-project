@@ -8,4 +8,15 @@
 //     console.log(result)
 // }
 var shout = require('./shout')
-shout("i like to shout!")
+var motivations = require('motivations')
+
+// console.log(motivations)
+// shout("i like to shout!")
+
+var randomIndex = Math.floor(Math.random() * motivations.length)
+var randomMotivations = motivations[randomIndex]
+console.log(randomMotivations)
+
+shout(randomMotivations)
+
+

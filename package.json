@@ -1,0 +1,22 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "playing around with node",
+  "main": "my-node-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhunter87/node-project.git"
+  },
+  "author": "Daniel Hunter <dhunter87>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhunter87/node-project/issues"
+  },
+  "homepage": "https://github.com/dhunter87/node-project#readme",
+  "dependencies": {
+    "motivations": "^1.1.2"
+  }
+}
